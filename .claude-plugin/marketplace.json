@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "description": "Claude Code plugin that prevents reading of .gitignore'd files and dotfiles",
+  "plugins": [
+    {
+      "name": "gitignore-guard",
+      "description": "Prevents Claude Code from reading .gitignore'd files and dotfiles (.env, .ssh, etc.)",
+      "pluginPath": "."
+    }
+  ]
+}
