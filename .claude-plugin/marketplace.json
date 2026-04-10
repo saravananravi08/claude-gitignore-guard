@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "gitignore-guard",
-      "source": ".",
+      "source": "./",
       "description": "Prevents Claude Code from reading .gitignore'd files and dotfiles (.env, .ssh, etc.)"
     }
   ]
