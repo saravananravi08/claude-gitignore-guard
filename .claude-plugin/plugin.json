@@ -3,6 +3,7 @@
   "description": "Prevents Claude Code from reading .gitignore'd files and dotfiles (.env, .ssh, etc.)",
   "version": "1.0.0",
   "author": {
-    "name": "Your Name"
+    "name": "saravananravi08",
+    "url": "https://github.com/saravananravi08"
   }
 }
