@@ -127,8 +127,9 @@ function main() {
     }
   }
 
-  // Check for piped content that might read sensitive files
-  if (isDangerousPath(normalized)) {
+  // Extract file path before checking (handles trailing redirections like 2>&1)
+  const filePath = normalized.split(/[|\s<>&\`]/)[0];
+  if (isDangerousPath(filePath)) {
     block('reading sensitive file', command);
   }
 
